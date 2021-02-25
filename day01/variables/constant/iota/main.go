@@ -15,6 +15,12 @@ const (
 	c1            // iota =3;c == 4 (implicitly c = iota + 1 )
 )
 
+const (
+	t1 = iota;t2 = iota
+	t3 = iota;t4 = iota
+)
+
 func main() {
 	fmt.Println(a1, b1, c1)
+	fmt.Println(t1,t2,t3,t4)
 }
